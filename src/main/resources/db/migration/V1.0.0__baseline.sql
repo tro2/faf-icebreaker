@@ -10,7 +10,7 @@ create table turn_servers
     PRIMARY KEY(id),
     UNIQUE KEY `unique_host_port` (`host`, `port`)
 )
-    comment 'List of turn servers to be propagated to ICE adapters';
+    comment 'List of TURN servers to be propagated to ICE adapters';
 
 create table ice_sessions
 (
